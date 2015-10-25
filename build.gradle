@@ -3,8 +3,8 @@ apply plugin: "spring-boot"
 apply plugin: "application"
 apply plugin: "idea"
 
-sourceCompatibility = "1.6"
-targetCompatibility = "1.6"
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
 
 version = "${version}"
 group = "${group}"
@@ -49,6 +49,8 @@ dependencies {
     testCompile "org.springframework.boot:spring-boot-starter-test:${springBootVersion}"
 }
 
+
+
 task wrapper(type: Wrapper) {
-    gradleVersion = '1.12'
+    gradleVersion = '2.8'
 }
