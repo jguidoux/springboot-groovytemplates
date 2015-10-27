@@ -1,4 +1,4 @@
-package animals
+package com.echoes.animals
 
 import groovy.transform.Canonical
 
